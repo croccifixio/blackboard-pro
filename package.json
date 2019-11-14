@@ -1,0 +1,36 @@
+{
+  "name": "yaml-themer",
+  "displayName": "Blackboard Pro",
+  "description": "An extension of the default Blackboard theme including a themed workbench and more colorisation of snippets",
+  "version": "0.0.1",
+  "publisher": "croccifixio",
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blackboard Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blackboard-pro.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "babel-node src/index.js",
+    "start": "nodemon"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.3.2",
+    "js-yaml": "^3.13.1",
+    "nodemon": "^1.19.1",
+    "rimraf": "^2.6.3"
+  }
+}

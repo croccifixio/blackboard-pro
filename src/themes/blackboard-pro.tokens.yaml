@@ -1,0 +1,310 @@
+$schema: vscode://schemas/color-theme
+name: 'Blackboard Pro'
+type: dark
+tokenColors:
+  - name: 'Comment plus start of comment'
+    scope: comment, punctuation.definition.comment, comment.block.documentation.js
+    settings:
+      foreground: greyBB
+      fontStyle: italic
+  - name: 'Text'
+    scope: support.function
+    settings:
+      foreground: lightBlue
+  - name: ''
+    scope: storage.type
+    settings:
+      foreground: lightYellow
+      fontStyle: italic
+  - name: ''
+    scope: support.class
+    settings:
+      fontStyle: bold
+  - name: 'Template strings'
+    scope: punctuation.definition.template-expression
+    settings:
+      foreground: green
+      fontStyle: bold
+  - name: 'Template string expression wrappers'
+    scope: punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end
+    settings:
+      foreground: lightGrey
+  - name: 'Template string expression'
+    scope: meta.template.expression
+    settings:
+      foreground: yellow
+  - name: ''
+    scope: meta.brace.round
+    settings:
+      foreground: lightGrey
+  - name: 'Boolean'
+    scope: constant.language.boolean
+    settings:
+      foreground: yellow
+  - name: ''
+    scope: storage.type.string.go
+    settings:
+      foreground: yellow
+  - name: ''
+    scope: variable.other.object
+    settings:
+      foreground: red
+      fontStyle: bold
+  - name: ''
+    scope: variable.object.property
+    settings:
+      foreground: lightGrey
+      fontStyle: bold
+  - name: ''
+    scope: meta.import variable.other
+    settings:
+      foreground: lightGrey
+      fontStyle: bold
+  - name: 'Boolean'
+    scope: none
+    settings:
+      foreground: red
+  - name: 'Keyword'
+    scope: keyword
+    settings:
+      foreground: lightYellow
+  - name: 'String'
+    scope: string
+    settings:
+      foreground: green
+  - name: 'Function'
+    scope: entity.name.function
+    settings:
+      foreground: lightYellow
+  - name: 'attribute name'
+    scope: entity.other.attribute-name
+    settings:
+      foreground: grey
+      fontStyle: italic
+  - name: 'tag'
+    scope: entity.name.tag, support.type.property-name
+    settings:
+      foreground: lightBlue
+  - name: 'tag'
+    scope: source.css keyword.other.unit
+    settings:
+      foreground: lightGrey
+  - name: 'tag'
+    scope: support.constant.property-value
+    settings:
+      foreground: lightGrey
+      fontStyle: italic
+  - name: 'tag'
+    scope: meta.object-literal.key
+    settings:
+      foreground: lightYellow
+      fontStyle: italic
+  - name: 'Doctype'
+    scope: meta.tag.sgml.doctype
+    settings:
+      foreground: red
+      fontStyle: italic
+  - name: '[XML] Doctype Tag'
+    scope: meta.tag.sgml.doctype punctuation.definition.tag
+    settings:
+      foreground: lightGrey
+  - name: '[XML] Document Root Variable'
+    scope: meta.tag.sgml.doctype variable.language.documentroot
+    settings:
+      foreground: yellow
+  - name: 'css tag'
+    scope: entity.name.tag.css
+    settings:
+      foreground: yellow
+  - name: 'Markup Quote'
+    scope: markup.quote
+    settings:
+      foreground: lightYellow
+      fontStyle: italic
+  - name: 'Markup Heading'
+    scope: markup.heading
+    settings:
+      foreground: red
+      fontStyle: bold
+  - name: 'Markup Italic'
+    scope: markup.italic
+    settings:
+      fontStyle: italic
+  - name: 'Markup Bold'
+    scope: markup.bold
+    settings:
+      fontStyle: bold
+  - name: 'Markup Separator'
+    scope: meta.separator
+    settings:
+      foreground: red
+  - name: 'Markup Link'
+    scope: meta.link.reference.def
+    settings:
+      foreground: lightYellow
+  - name: 'Markup List'
+    scope: beginning.punctuation.definition.list
+    settings:
+      foreground: green
+  - name: 'Markup Link Title'
+    scope: string.other.link.title
+    settings:
+      foreground: green
+  - name: 'Markup Link URL'
+    scope: markup.underline.link
+    settings:
+      foreground: lightGrey
+  - name: 'Markup Code'
+    scope: markup.inline.raw
+    settings:
+      foreground: yellow
+  - name: 'Org Heading'
+    scope: entity.name.type.org
+    settings:
+      foreground: red
+      fontStyle: bold
+  - name: '[Org] blocks'
+    scope: punctuation.definition.tag.org
+    settings:
+      foreground: grey66
+  - name: '[Org] block language'
+    scope: block.language.org
+    settings:
+      foreground: green99
+      fontStyle: italic
+  - name: '[Org] Keyword Key'
+    scope: support.type.property-name.org
+    settings:
+      foreground: red
+  - name: '[Org] Keyword Value'
+    scope: meta.structure.dictionary.value.org
+    settings:
+      foreground: green
+  - name: '[YAML] List Punctuation'
+    scope: punctuation.definition.block.sequence.item
+    settings:
+      foreground: green
+  - name: '[Go] function definition'
+    scope: entity.name.function.go
+    settings:
+      foreground: red
+      fontStyle: italic
+  - name: '[Go] function definition'
+    scope: support.function.go
+    settings:
+      foreground: lightGrey
+  - name: '[YAML] string'
+    scope: string.quoted.double.yaml, string.quoted.single.yaml
+    settings:
+      foreground: green
+  - name: '[YAML] unquoted'
+    scope: string.unquoted.plain.out.yaml
+    settings:
+      foreground: lightGrey
+  - name: '[INI] group title'
+    scope: entity.name.section.group-title.ini, punctuation.definition.entity.ini
+    settings:
+      foreground: lightGrey
+  - name: '[VSCODE-CUSTOM] JSON Property Name'
+    scope: support.type.property-name.json
+    settings:
+      foreground: lightYellow
+      fontStyle: italic
+  - name: '[VSCODE-CUSTOM] JSON constants'
+    scope: constant.language.json
+    settings:
+      foreground: lightGrey
+      fontStyle: italic
+  - name: '[VSCODE-CUSTOM] JSON Property Value'
+    scope: string.quoted.double.json
+    settings:
+      foreground: green
+  - name: '[Typescript] Object'
+    scope: meta.function-call entity.name.function
+    settings:
+      foreground: lightGrey
+      fontStyle: bold
+  - name: '[Typescript] Object'
+    scope: variable.other.object.ts
+    settings:
+      fontStyle: bold
+  - name: '[Typescript] Object'
+    scope: variable.other.object.property.ts
+    settings:
+      foreground: red
+  - name: '[Typescript] Object'
+    scope: meta.parameters.ts
+    settings:
+      foreground: lightGrey
+      fontStyle: bold
+  - name: '[Typescript] Object'
+    scope: meta.type.annotation.ts
+    settings:
+      foreground: red
+      fontStyle: italic
+  - name: '[JSX] Embedded JS openning brace'
+    scope: punctuation.section.embedded.begin.js
+    settings:
+      foreground: lightGrey
+  - name: '[JSX] Embedded JS closing brace'
+    scope: punctuation.section.embedded.end.js
+    settings:
+      foreground: lightGrey
+  - name: '[JSX] HTML content'
+    scope: constant.character.entity.js
+    settings:
+      foreground: lightGrey
+  - name: '[JSX] Component'
+    scope: support.class.component.js
+    settings:
+      fontStyle: italic underline
+  - name: '[JS] Decorator'
+    scope: meta.decorator.js, meta.decorator.js meta.function-call entity.name.function
+    settings:
+      foreground: lightBlue
+  - name: '[JS] Extends'
+    scope: storage.modifier.js
+    settings:
+      foreground: lightBlue
+  - name: '[JS] Function call'
+    scope: meta.function-call.js entity.name.function.js
+    settings:
+      foreground: lightGrey
+      fontStyle: italic
+  - name: '[JS] Function definition'
+    # scope: meta.method.declaration.js entity.name.function.js
+    scope: meta.definition.function.js entity.name.function.js, meta.definition.method.js entity.name.function.js
+    settings:
+      fontStyle: underline
+  - name: '[JSDoc] Type'
+    scope: entity.name.type.instance.jsdoc
+    settings:
+      foreground: lightBlue
+  - name: '[JSDoc] Variable'
+    scope: variable.other.jsdoc
+    settings:
+      foreground: red
+  - name: '[JSDoc] Default value'
+    scope: variable.other.jsdoc source.embedded.js
+    settings:
+      foreground: green
+  - name: '[Elixir]'
+    scope: constant.other.symbol.elixir
+    settings:
+      foreground: green
+  - name: '[Elixir]'
+    scope: variable.other.constant.elixir
+    settings:
+      foreground: lightBlue
+  - name: '[Elixir]'
+    scope: variable.other.readwrite.module.elixir
+    settings:
+      foreground: red
+  - name: '[Elixir]'
+    scope: comment.wildcard.elixir
+    settings:
+      fontStyle: bold
+  - name: '[Elixir]'
+    scope: entity.name.function.elixir
+    settings:
+      fontStyle: italic
