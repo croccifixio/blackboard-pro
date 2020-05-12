@@ -87,7 +87,7 @@ colors:
   list.activeSelectionForeground: white
   list.dropBackground: yellow22
   list.focusBackground: yellow22
-  list.focusForeground: lightGrey
+  list.focusForeground: white
   list.highlightForeground: blue
   list.hoverBackground: lightBlack
   list.hoverForeground: white
@@ -124,10 +124,15 @@ colors:
   peekViewTitle.background: lightBlue55
   peekViewTitleDescription.foreground: grey
   peekViewTitleLabel.foreground: lightGrey
+  pickerGroup.border: grey
+  pickerGroup.foreground: white
   problemsErrorIcon.foreground: red
-  problemsWarningIcon.foreground: yellow
   problemsInfoIcon.foreground: blue
+  problemsWarningIcon.foreground: yellow
   progressBar.background: blue
+  quickInput.background: lightBlack
+  quickInput.foreground: white
+  quickInputTitle.background: grey
   scrollbar.shadow: black
   selection.background: grey66
   sideBar.background: lightBlack
@@ -169,4 +174,4 @@ colors:
   titleBar.activeBackground: lightBlueAA
   titleBar.activeForeground: lightGrey
   titleBar.inactiveForeground: lightBlue
-  widget.shadow: lightBlueAA
+  widget.shadow: lightBlue22
