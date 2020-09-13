@@ -308,3 +308,19 @@ tokenColors:
     scope: entity.name.function.elixir
     settings:
       fontStyle: italic
+  - name: '[Rust]'
+    scope: keyword.other.rust, storage.modifier.visibility.rust, keyword.other.fn.rust, keyword.operator.misc.rust
+    settings:
+      foreground: lightYellow
+  - name: '[Rust]'
+    scope: meta.attribute.rust, keyword.operator.sigil.rust
+    settings:
+      foreground: red
+  - name: '[Rust]'
+    scope: meta.type_params.rust, entity.name.type.rust, storage.class.std.rust, storage.type.core.rust
+    settings:
+      foreground: yellow
+  - name: '[Rust]'
+    scope: entity.name.function.rust, storage.type.rust
+    settings:
+      foreground: lightBlue
