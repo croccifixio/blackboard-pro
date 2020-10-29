@@ -23,7 +23,7 @@
     "build": "babel-node src/index.js",
     "start": "nodemon"
   },
-  "license": "MIT",
+  "license": "Unlicense",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/node": "^7.12.1",
