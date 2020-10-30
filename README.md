@@ -6,6 +6,8 @@ This is Blackboard Pro. A dark theme for Visual Studio Code.
 
 ![screenshot](showcase/screenshot.png)
 
+View it on the [tmTheme Editor](https://tmtheme-editor.herokuapp.com/#!/editor/url/https://raw.githubusercontent.com/Croccifixio/blackboard-pro/main/showcase/blackboard-pro.tmTheme).
+
 ## Developing
 
 This theme utilises a theme builder that is based on YAML. The theme builder can be initialised by running the following command:
