@@ -1,12 +1,4 @@
 {
-  "name": "yaml-themer",
-  "displayName": "Blackboard Pro",
-  "description": "An extension of the default Blackboard theme including a themed workbench and more colorisation of snippets",
-  "version": "0.0.1",
-  "publisher": "croccifixio",
-  "engines": {
-    "vscode": "^1.17.0"
-  },
   "categories": [
     "Themes"
   ],
@@ -14,16 +6,12 @@
     "themes": [
       {
         "label": "Blackboard Pro",
-        "uiTheme": "vs-dark",
-        "path": "./themes/blackboard-pro.json"
+        "path": "./themes/blackboard-pro.json",
+        "uiTheme": "vs-dark"
       }
     ]
   },
-  "scripts": {
-    "build": "babel-node src/index.js",
-    "start": "nodemon"
-  },
-  "license": "Unlicense",
+  "description": "An extension of the default Blackboard theme including a themed workbench and more colorisation of snippets",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/node": "^7.12.1",
@@ -32,5 +20,20 @@
     "js-yaml": "^3.14.0",
     "nodemon": "^2.0.6",
     "rimraf": "^3.0.2"
-  }
+  },
+  "displayName": "Blackboard Pro",
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "license": "Unlicense",
+  "name": "blackboard-pro",
+  "publisher": "Croccifixio",
+  "repository": {
+    "url": "https://github.com/Croccifixio/blackboard-pro"
+  },
+  "scripts": {
+    "build": "babel-node src/index.js",
+    "start": "nodemon"
+  },
+  "version": "0.0.1"
 }
