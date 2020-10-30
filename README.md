@@ -2,6 +2,10 @@
 
 This is Blackboard Pro. A dark theme for Visual Studio Code.
 
+## Screenshots
+
+![screenshot](showcase/screenshot.png)
+
 ## Developing
 
 This theme utilises a theme builder that is based on YAML. The theme builder can be initialised by running the following command:
