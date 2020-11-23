@@ -214,12 +214,12 @@ tokenColors:
       foreground: lightGrey
       fontStyle: bold
   - name: '[TS] Type definition name'
-    scope: entity.name.type.interface.ts, meta.type.declaration entity.name.type, entity.name.type.interface
+    scope: entity.name.type.alias, entity.name.type.interface
     settings:
       foreground: lightBlue
       fontStyle: underline
   - name: '[TS] Type'
-    scope: meta.type.annotation, support.type.primitive.ts, meta.return.type.arrow
+    scope: meta.type.annotation, support.type.primitive.ts, meta.return.type.arrow, meta.type.parameters entity.name.type
     settings:
       foreground: lightBlue
       fontStyle: italic
