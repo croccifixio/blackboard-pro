@@ -35,5 +35,5 @@
     "build": "babel-node src/index.js",
     "start": "nodemon"
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
