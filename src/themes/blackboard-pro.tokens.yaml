@@ -60,7 +60,7 @@ tokenColors:
     settings:
       foreground: lightYellow
   - name: 'String'
-    scope: string, string.regexp keyword
+    scope: string, string.regexp keyword, string.regexp punctuation.definition
     settings:
       foreground: green
   - name: 'Function'
