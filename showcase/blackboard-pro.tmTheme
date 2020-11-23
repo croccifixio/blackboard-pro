@@ -84,17 +84,6 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Template string expression wrappers</string>
-        <key>scope</key>
-        <string>punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C8C8FF</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
         <string>Template string expression</string>
         <key>scope</key>
         <string>meta.template.expression</string>
@@ -108,11 +97,11 @@
         <key>name</key>
         <string/>
         <key>scope</key>
-        <string>meta.brace.round</string>
+        <string>meta.brace, punctuation.definition, punctuation.section</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#C8C8FF</string>
+          <string>#B0B8F7</string>
         </dict>
       </dict>
       <dict>
@@ -130,22 +119,9 @@
         <key>name</key>
         <string/>
         <key>scope</key>
-        <string>storage.type.string.go</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#FDC64D</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string/>
-        <key>scope</key>
         <string>variable.other.object</string>
         <key>settings</key>
         <dict>
-          <key>foreground</key>
-          <string>#F86F65</string>
           <key>fontStyle</key>
           <string>bold</string>
         </dict>
@@ -202,7 +178,7 @@
         <key>name</key>
         <string>String</string>
         <key>scope</key>
-        <string>string</string>
+        <string>string, string.regexp keyword, string.regexp punctuation.definition</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -217,7 +193,18 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#F8E359</string>
+          <string>#F86F65</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Function definition</string>
+        <key>scope</key>
+        <string>meta.definition entity.name.function, meta.arrow entity.name.function</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string>underline</string>
         </dict>
       </dict>
       <dict>
@@ -235,7 +222,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>tag</string>
+        <string/>
         <key>scope</key>
         <string>entity.name.tag, support.type.property-name</string>
         <key>settings</key>
@@ -246,7 +233,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>tag</string>
+        <string/>
         <key>scope</key>
         <string>source.css keyword.other.unit</string>
         <key>settings</key>
@@ -257,7 +244,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>tag</string>
+        <string/>
         <key>scope</key>
         <string>support.constant.property-value</string>
         <key>settings</key>
@@ -270,15 +257,24 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>tag</string>
+        <string>Object key</string>
         <key>scope</key>
         <string>meta.object-literal.key</string>
         <key>settings</key>
         <dict>
-          <key>foreground</key>
-          <string>#F8E359</string>
           <key>fontStyle</key>
           <string>italic</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Number</string>
+        <key>scope</key>
+        <string>constant.numeric</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FDC64D</string>
         </dict>
       </dict>
       <dict>
@@ -513,30 +509,6 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[Go] function definition</string>
-        <key>scope</key>
-        <string>entity.name.function.go</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#F86F65</string>
-          <key>fontStyle</key>
-          <string>italic</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>[Go] function definition</string>
-        <key>scope</key>
-        <string>support.function.go</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C8C8FF</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
         <string>[YAML] string</string>
         <key>scope</key>
         <string>string.quoted.double.yaml, string.quoted.single.yaml</string>
@@ -607,42 +579,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[Typescript] Object</string>
-        <key>scope</key>
-        <string>meta.function-call entity.name.function</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C8C8FF</string>
-          <key>fontStyle</key>
-          <string>bold</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>[Typescript] Object</string>
-        <key>scope</key>
-        <string>variable.other.object.ts</string>
-        <key>settings</key>
-        <dict>
-          <key>fontStyle</key>
-          <string>bold</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>[Typescript] Object</string>
-        <key>scope</key>
-        <string>variable.other.object.property.ts</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#F86F65</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>[Typescript] Object</string>
+        <string>[TS] Object</string>
         <key>scope</key>
         <string>meta.parameters.ts</string>
         <key>settings</key>
@@ -655,59 +592,39 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[Typescript] Object</string>
+        <string>[TS] Type definition name</string>
         <key>scope</key>
-        <string>meta.type.annotation.ts</string>
+        <string>entity.name.type.interface.ts, meta.type.declaration entity.name.type, entity.name.type.interface</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#F86F65</string>
+          <string>#6CA9FF</string>
+          <key>fontStyle</key>
+          <string>underline</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[TS] Type</string>
+        <key>scope</key>
+        <string>meta.type.annotation, support.type.primitive.ts, meta.return.type.arrow</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#6CA9FF</string>
           <key>fontStyle</key>
           <string>italic</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>[JSX] Embedded JS openning brace</string>
+        <string>[TS] Generic type punctuation</string>
         <key>scope</key>
-        <string>punctuation.section.embedded.begin.js</string>
+        <string>punctuation.definition.typeparameters</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#C8C8FF</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>[JSX] Embedded JS closing brace</string>
-        <key>scope</key>
-        <string>punctuation.section.embedded.end.js</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C8C8FF</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>[JSX] HTML content</string>
-        <key>scope</key>
-        <string>constant.character.entity.js</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#C8C8FF</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>[JSX] Component</string>
-        <key>scope</key>
-        <string>support.class.component.js</string>
-        <key>settings</key>
-        <dict>
-          <key>fontStyle</key>
-          <string>italic underline</string>
         </dict>
       </dict>
       <dict>
@@ -734,26 +651,15 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[JS] Function call</string>
+        <string>[JS/TS] Function call</string>
         <key>scope</key>
-        <string>meta.function-call.js entity.name.function.js</string>
+        <string>meta.function-call entity.name.function.js, meta.function-call entity.name.function.ts, support.function.math, meta.function-call entity.name.function.tsx, support.function</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#C8C8FF</string>
+          <string>#F86F65</string>
           <key>fontStyle</key>
           <string>italic</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>[JS] Function definition</string>
-        <key>scope</key>
-        <string>meta.definition.function.js entity.name.function.js, meta.definition.method.js entity.name.function.js</string>
-        <key>settings</key>
-        <dict>
-          <key>fontStyle</key>
-          <string>underline</string>
         </dict>
       </dict>
       <dict>
@@ -775,7 +681,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#F86F65</string>
+          <string>#C8C8FF</string>
         </dict>
       </dict>
       <dict>
