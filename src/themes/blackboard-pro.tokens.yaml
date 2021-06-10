@@ -288,3 +288,17 @@ tokenColors:
     scope: entity.name.function.rust, storage.type.rust
     settings:
       foreground: lightBlue
+  - name: '[Rescript]'
+    scope: source.rescript variable.annotation
+    settings:
+      foreground: lightBlue
+  - name: '[Rescript]'
+    scope: source.rescript entity.name.namespace
+    settings:
+      foreground: lightBlue
+      fontStyle: underline
+  - name: '[Rescript]'
+    scope: source.rescript variable.function
+    settings:
+      foreground: red
+      fontStyle: italic
