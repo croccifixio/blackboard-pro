@@ -44,5 +44,5 @@
     "deploy": "vsce publish",
     "start": "nodemon"
   },
-  "version": "0.0.7"
+  "version": "0.1.0"
 }
