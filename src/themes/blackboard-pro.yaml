@@ -9,9 +9,12 @@ colors:
   activityBarBadge.foreground: black
   badge.background: lightBlack
   badge.foreground: yellow
-  button.background: lightBlueAA
-  button.foreground: white
-  button.hoverBackground: lightBlueAA
+  button.background: blue
+  button.foreground: blackCC
+  button.hoverBackground: blueEE
+  button.secondaryBackground: lightishGrey
+  button.secondaryForeground: lightBlack
+  button.secondaryHoverBackground: lightishGreyDD
   checkbox.background: lightBlueAA
   checkbox.border: white
   checkbox.foreground: white
