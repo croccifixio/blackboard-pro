@@ -27,6 +27,7 @@
   "engines": {
     "vscode": "^1.17.0"
   },
+  "icon": "assets/blackboard-pro-dark.png",
   "license": "Unlicense",
   "name": "blackboard-pro",
   "publisher": "Croccifixio",
