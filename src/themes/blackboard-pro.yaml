@@ -73,14 +73,9 @@ colors:
   editorOverviewRuler.incomingContentForeground: blue55
   editorOverviewRuler.commonContentForeground: grey55
   editorSuggestWidget.background: black
-  editorSuggestWidget.border: lightBlueAA
-  editorSuggestWidget.foreground: lightGrey
-  editorSuggestWidget.highlightForeground: lightBlue
-  editorSuggestWidget.selectedBackground: lightBlueAA
   editorWarning.foreground: yellow
-  editorWidget.background: blue55
-  editorWidget.border: blue88
-  focusBorder: black
+  editorWidget.background: lightBlack
+  focusBorder: yellow
   foreground: white
   icon.foreground: white
   input.background: black
@@ -111,6 +106,9 @@ colors:
   notification.infoForeground: red
   notification.warningBackground: black
   notification.warningForeground: yellow
+  notificationToast.background: lightBlack
+  notificationToast.border: blue
+  notificationToast.foreground: white
   panel.background: lightBlack
   panel.border: lightBlack
   panelTitle.activeForeground: lightGreen
@@ -177,4 +175,3 @@ colors:
   titleBar.activeBackground: lightBlueAA
   titleBar.activeForeground: lightGrey
   titleBar.inactiveForeground: lightBlue
-  widget.shadow: lightBlue22
