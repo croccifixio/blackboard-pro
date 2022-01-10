@@ -30,9 +30,9 @@
   "icon": "assets/blackboard-pro-dark.png",
   "license": "Unlicense",
   "name": "blackboard-pro",
-  "publisher": "Croccifixio",
+  "publisher": "croccifixio",
   "repository": {
-    "url": "https://github.com/Croccifixio/blackboard-pro"
+    "url": "https://github.com/croccifixio/blackboard-pro"
   },
   "scripts": {
     "build": "babel-node src/index.js",
