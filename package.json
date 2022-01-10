@@ -47,5 +47,5 @@
     "prepare": "husky install",
     "test": "dotenv -- cross-var echo %HELLO%"
   },
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
