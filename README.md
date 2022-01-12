@@ -6,7 +6,7 @@ This is Blackboard Pro. A dark theme for Visual Studio Code.
 
 ![screenshot](https://raw.githubusercontent.com/Croccifixio/blackboard-pro/main/showcase/screenshot.png)
 
-View it on the [tmTheme Editor](https://tmtheme-editor.herokuapp.com/#!/editor/url/https://raw.githubusercontent.com/Croccifixio/blackboard-pro/main/showcase/blackboard-pro.tmTheme).
+View it on the [tmTheme Editor](https://tmtheme-editor.herokuapp.com/#!/editor/url/https://raw.githubusercontent.com/croccifixio/blackboard-pro/main/showcase/blackboard-pro.tmTheme).
 
 ## Developing
 
