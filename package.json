@@ -13,20 +13,23 @@
   },
   "description": "An extension of the default Blackboard theme including a themed workbench and more colorisation of snippets",
   "devDependencies": {
-    "@babel/core": "^7.16.7",
-    "@babel/node": "^7.16.8",
-    "@babel/plugin-proposal-class-properties": "^7.16.7",
-    "@babel/plugin-proposal-pipeline-operator": "^7.16.7",
-    "dotenv": "^10.0.0",
-    "husky": "^6.0.0",
-    "js-yaml": "^4.1.0",
-    "nodemon": "^2.0.15",
-    "ovsx": "^0.2.1",
-    "rimraf": "^3.0.2",
-    "vsce": "^1.103.1"
+    "@fxts/core": "0.3.x",
+    "@types/js-yaml": "4.x.x",
+    "@types/node": "16.x.x",
+    "@types/rimraf": "3.x.x",
+    "dotenv": "12.x.x",
+    "husky": "7.x.x",
+    "js-yaml": "4.x.x",
+    "nodemon": "2.x.x",
+    "ovsx": "0.2.x",
+    "rimraf": "3.x.x",
+    "ts-node": "^10.4.0",
+    "typescript": "4.5.4",
+    "vsce": "2.x.x"
   },
   "displayName": "Blackboard Pro",
   "engines": {
+    "node": "^16.0.0",
     "vscode": "^1.17.0"
   },
   "icon": "assets/blackboard-pro-dark.png",
@@ -37,7 +40,7 @@
     "url": "https://github.com/croccifixio/blackboard-pro"
   },
   "scripts": {
-    "build": "babel-node src/index.js",
+    "build": "ts-node src/index.ts",
     "deploy": "node bin/deploy.mjs",
     "start": "nodemon",
     "prepare": "husky install"

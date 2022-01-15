@@ -18,15 +18,15 @@ npm run start
 
 ### Config Options
 
-The `src/config.js` file exports an object with the following attributes:
+The `src/config.ts` file exports an object with the following attributes:
 
 - #### colors
   `colors` is an object containing key-value pairs used for search and replace (i.e. any occurrences of the keys in the theme definition will be replaced with those keys' corresponding values). It is worth noting that this allows 8-digit hex codes to be used while only having to define the equivalent 6-digit hex code. An example is shown below.
 
   Given the following config:
 
-  ```js
-  // src/config.js
+  ```ts
+  // src/config.ts
   // ...
     "colors": {
       "black": "#112233",
