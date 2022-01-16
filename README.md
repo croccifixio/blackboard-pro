@@ -21,9 +21,9 @@ npm run start
 The `src/config.js` file exports an object with the following attributes:
 
 - #### colors
-  `colors` is an object containing key-value pairs used for search and replace (i.e. any occurences of the keys in the theme definition will be replaced with those keys' corresponding values). It is worth noting that this allows 8-digit hex codes to be used while only having to define the equivalent 6-digit hex code. An example is shown below.
+  `colors` is an object containing key-value pairs used for search and replace (i.e. any occurrences of the keys in the theme definition will be replaced with those keys' corresponding values). It is worth noting that this allows 8-digit hex codes to be used while only having to define the equivalent 6-digit hex code. An example is shown below.
 
-  Given the folloing config:
+  Given the following config:
 
   ```js
   // src/config.js
@@ -62,7 +62,7 @@ The `src/config.js` file exports an object with the following attributes:
 - #### inputPath
   `inputPath` is a path to the input folder containing the YAML files used for theming.
 - #### outputPath
-  `outputPath` is a path to the output folder that serves as the destination for generated JSON files. (__NOTE__: the outpath must also be defined in the `contributes.themes.path` attribute of the `package.json`).
+  `outputPath` is a path to the output folder that serves as the destination for generated JSON files. (__NOTE__: the output path must also be defined in the `contributes.themes.path` attribute of the `package.json`).
 
 ## Building
 
