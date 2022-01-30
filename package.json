@@ -42,7 +42,7 @@
   "scripts": {
     "build": "ts-node src/index.ts",
     "deploy": "node bin/deploy.mjs",
-    "start": "nodemon",
+    "dev": "nodemon",
     "prepare": "husky install"
   },
   "version": "1.1.0"
