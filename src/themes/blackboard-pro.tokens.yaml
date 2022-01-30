@@ -20,6 +20,11 @@ tokenColors:
     scope: support.class
     settings:
       fontStyle: bold
+  - name: 'Components'
+    scope: support.class.component
+    settings:
+      fontStyle: normal
+      foreground: lightBlue
   - name: 'Template strings'
     scope: punctuation.definition.template-expression
     settings:
