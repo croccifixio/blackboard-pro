@@ -119,6 +119,10 @@ tokenColors:
     scope: entity.name.tag.css
     settings:
       foreground: yellow
+  - name: 'css property field'
+    scope: meta.property-name.css
+    settings:
+      foreground: lightBlue
   - name: 'Markup Quote'
     scope: markup.quote
     settings:
