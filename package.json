@@ -45,5 +45,5 @@
     "dev": "nodemon",
     "prepare": "husky install"
   },
-  "version": "1.1.2"
+  "version": "1.1.3"
 }
