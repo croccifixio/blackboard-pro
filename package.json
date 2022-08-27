@@ -37,7 +37,7 @@
   "name": "blackboard-pro",
   "publisher": "croccifixio",
   "repository": {
-    "url": "https://github.com/croccifixio/blackboard-pro"
+    "url": "https://git.sr.ht/~croccifixio/blackboard-pro"
   },
   "scripts": {
     "build": "ts-node src/index.ts",
