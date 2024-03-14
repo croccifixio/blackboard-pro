@@ -6,7 +6,7 @@ colors:
   activityBar.background: lightBlack
   activityBar.foreground: lightGrey
   activityBarBadge.background: yellow
-  activityBarBadge.foreground: black
+  activityBarBadge.foreground: lightBlack
   badge.background: lightBlack
   badge.foreground: yellow
   button.background: blue
@@ -97,7 +97,7 @@ colors:
   merge.incomingHeaderBackground: blue55
   notification.background: black
   notification.buttonBackground: blue
-  notification.buttonForeground: black
+  notification.buttonForeground: lightBlack
   notification.buttonHoverBackground: blue
   notification.errorBackground: black
   notification.errorForeground: red
@@ -144,7 +144,7 @@ colors:
   sideBarTitle.foreground: white
   statusBar.background: lightBlack
   statusBar.debuggingBackground: red
-  statusBar.debuggingForeground: black
+  statusBar.debuggingForeground: lightBlack
   statusBar.foreground: blue
   statusBar.noFolderBackground: lightBlack
   statusBar.noFolderForeground: blue
