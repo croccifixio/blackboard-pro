@@ -13,23 +13,22 @@
   },
   "description": "An extension of the default Blackboard theme including a themed workbench and more colorisation of snippets",
   "devDependencies": {
-    "@fxts/core": "0.6.x",
+    "@fxts/core": "0.25.x",
     "@types/js-yaml": "4.x.x",
-    "@types/node": "16.x.x",
-    "@types/rimraf": "3.x.x",
+    "@types/node": "20.x.x",
+    "@vscode/vsce": "2.x.x",
     "dotenv": "16.x.x",
-    "husky": "7.x.x",
+    "husky": "9.x.x",
     "js-yaml": "4.x.x",
-    "nodemon": "2.x.x",
-    "ovsx": "0.3.x",
-    "rimraf": "3.x.x",
+    "nodemon": "3.x.x",
+    "ovsx": "0.8.x",
+    "rimraf": "4.x.x",
     "ts-node": "10.x.x",
-    "typescript": "4.6.4",
-    "vsce": "2.x.x"
+    "typescript": "5.x.x"
   },
   "displayName": "Blackboard Pro",
   "engines": {
-    "node": "^16.0.0",
+    "node": "^20.0.0",
     "vscode": "^1.17.0"
   },
   "icon": "assets/blackboard-pro-dark.png",

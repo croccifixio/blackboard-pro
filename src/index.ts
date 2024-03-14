@@ -1,4 +1,4 @@
-import { mkdirSync, readdirSync } from "fs";
+import { mkdirSync, readdirSync } from "node:fs";
 import { sync as rimrafSync } from "rimraf";
 import { load as loadYaml } from "js-yaml";
 import { join, map, pipe } from "@fxts/core";
