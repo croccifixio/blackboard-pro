@@ -172,6 +172,8 @@ colors:
   terminal.ansiYellow: yellow
   terminal.background: black
   terminal.foreground: grey
-  titleBar.activeBackground: lightBlueAA
+  titleBar.activeBackground: lightBlack
   titleBar.activeForeground: lightGrey
-  titleBar.inactiveForeground: lightBlue
+  titleBar.border: blue33
+  titleBar.inactiveBackground: lightBlack
+  titleBar.inactiveForeground: lightGrey66
