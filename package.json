@@ -17,7 +17,6 @@
     "@types/js-yaml": "4.x.x",
     "@types/node": "20.x.x",
     "@vscode/vsce": "2.x.x",
-    "dotenv": "16.x.x",
     "husky": "9.x.x",
     "js-yaml": "4.x.x",
     "nodemon": "3.x.x",
@@ -40,7 +39,9 @@
   },
   "scripts": {
     "build": "ts-node src/index.ts",
-    "deploy": "node bin/deploy.mjs",
+    "deploy": "npm run deploy:ovsx && npm run deploy:vsce",
+    "deploy:ovsx": "npx ovsx publish --baseImagesUrl https://raw.githubusercontent.com/croccifixio/blackboard-pro/main -p $(op read op://Private/OpenVSX/access-token)",
+    "deploy:vsce": "npx vsce publish --baseImagesUrl https://raw.githubusercontent.com/croccifixio/blackboard-pro/main",
     "dev": "nodemon",
     "prepare": "husky install"
   },
